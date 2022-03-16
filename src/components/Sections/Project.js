@@ -5,7 +5,7 @@ function Project() {
       <h2 className="section-heading">Projects</h2>
       <section className="projects-container">
         <article className="project-card">
-          <img src="/images/glitter.jpg" className="project-card-img"></img>
+          <img src="/images/FFDex.webp" className="project-card-img"></img>
           <div className="project-card-title-content">
             <h3 className="project-card-title">Final Fantasy API</h3>
             <hr></hr>
@@ -34,7 +34,7 @@ function Project() {
           </ul>
         </article>
         <article className="project-card">
-          <img src="/images/glitter.jpg" className="project-card-img"></img>
+          <img src="/images/alanai.webp" className="project-card-img"></img>
           <div className="project-card-title-content">
             <h3 className="project-card-title">Voice Powered News</h3>
             <hr></hr>
@@ -64,7 +64,10 @@ function Project() {
           </ul>
         </article>
         <article className="project-card">
-          <img src="/images/glitter.jpg" className="project-card-img"></img>
+          <img
+            src="/images/badchecklist.webp"
+            className="project-card-img"
+          ></img>
           <div className="project-card-title-content">
             <h3 className="project-card-title">Bad Checklist</h3>
             <hr></hr>
@@ -97,7 +100,10 @@ function Project() {
           </ul>
         </article>
         <article className="project-card">
-          <img src="/images/glitter.jpg" className="project-card-img"></img>
+          <img
+            src="/images/goaltracker.webp"
+            className="project-card-img"
+          ></img>
           <div className="project-card-title-content">
             <h3 className="project-card-title">Goal Tracker</h3>
             <hr></hr>
