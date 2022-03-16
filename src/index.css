@@ -44,6 +44,10 @@ header {
   color: white;
 }
 
+.portfolio-logo-container span {
+  margin: 0 3px;
+}
+
 .social-icons-container a {
   font-size: 1.3rem;
   color: white;
@@ -73,7 +77,6 @@ main {
   font-weight: 800;
   font-size: 65px;
   line-height: 72px;
-  width: max-content;
   max-width: 100%;
   background: linear-gradient(
     121.57deg,
@@ -158,7 +161,7 @@ main {
 .projects {
   display: flex;
   flex-direction: column;
-  padding: 0;
+  padding: 32px 48px 0;
   margin: 0 auto;
   max-width: 1100px;
   box-sizing: content-box;
@@ -172,7 +175,6 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   padding: 3rem;
   place-items: center;
-  -webkit-column-gap: 2rem;
   column-gap: 2rem;
   row-gap: 3rem;
 }
@@ -259,12 +261,7 @@ main {
 
 /* Skills section */
 .skills {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   flex-direction: column;
   padding: 32px 48px 0;
   margin: 0 auto;
@@ -293,7 +290,7 @@ main {
 }
 
 .skill {
-  max-width: 320px;
+  max-width: 350px;
   display: flex;
   flex-direction: column;
 }
@@ -304,15 +301,18 @@ main {
   align-items: stretch;
 }
 
-.skill-content svg {
-  margin-left: 1rem;
+.skill-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+  width:100%;
 }
 
 .skill-title {
   font-weight: 700;
   font-size: 28px;
   line-height: 32px;
-  display: inline-block;
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 8px;
@@ -352,9 +352,10 @@ main {
   padding: 0rem;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  margin-left: 32px;
   margin-bottom: 80px;
+  margin-left: 30px;
 }
 
 .timeline-item {
@@ -446,4 +447,116 @@ footer {
   position: relative;
   left: 0;
   cursor: pointer;
+}
+
+/* MEDIUM SCREENS */
+@media screen and (max-width: 860px) {
+  header {
+    font-size: 1.1rem;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .hero svg {
+    display: none;
+  }
+  
+}
+
+/* MEDIUM SCREENS */
+@media screen and (max-width: 750px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .hero-left {
+    margin: 0;
+  }
+  .projects-container {
+    padding: 3rem 0 0 0;
+  }
+
+  .skills-list{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }  
+}
+
+@media screen and (max-width: 490px) {
+  header {
+    margin-bottom: 0;
+  }
+  section {
+    text-align: center;
+  }
+  .section-heading {
+    font-size: 2.2rem;
+  }
+  section p {
+    font-size: 1.2rem;
+  }
+  .hero {
+    padding-top: 0;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 2.9rem;
+  }
+  .hero h1 br {
+    display: none;
+  }
+  .hero p {
+    font-size: 1.2rem;
+  }
+  .learn-more-btn {
+    width: 100%;
+    font-size: 1.3rem;
+  }
+  .projects-container {
+    display: block;
+  }
+  .project-card {
+    width: 100%;
+    height: 25%;
+  }
+  .project-source-list {
+    padding-bottom: 2rem;
+  }
+  .skills-list{
+    grid-template-columns: 1fr;
+    gap: 50px;
+    place-items: center;
+  }
+  .skill {
+    max-width: 250px;
+  }
+  .skill-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .skill-heading {
+    margin: 0;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .timeline-item {
+    margin: 10px 0;
+  }
+  footer {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .contact-container div {
+    display: block;
+  }
+  #f-github {
+    display: none;
+  }
+  .divider, .divider-2 {
+    display: block;
+    margin: 0 auto;
+  }
 }
