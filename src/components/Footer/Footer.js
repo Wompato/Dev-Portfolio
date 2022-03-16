@@ -9,7 +9,7 @@ function Footer() {
           <a href="mailto:alexshelton1999@gmail.com">
             alexshelton1999@gmail.com
           </a>
-          <a target="blank" href="https://github.com/Wompato?tab=repositories">
+          <a id="f-github" target="blank" href="https://github.com/Wompato?tab=repositories">
             <SiGithub size="30px" />
           </a>
         </div>
