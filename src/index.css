@@ -1,0 +1,453 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto&family=Space+Grotesk:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  line-height: 1.15;
+}
+
+body {
+  font-family: Space Grotesk, sans-serif;
+  background: #0f1624;
+  color: hsl(204, 23.8%, 95.9%);
+  cursor: default;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+  height: 60px;
+  font-size: 1.4rem;
+}
+
+.portfolio-logo-container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.social-icons-container a {
+  font-size: 1.3rem;
+  color: white;
+}
+
+nav {
+  margin-right: 15%;
+}
+
+main {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.app-container {
+  max-width: 1380px;
+  margin: 0 auto;
+}
+
+.section-heading {
+  font-weight: 800;
+  font-size: 65px;
+  line-height: 72px;
+  width: max-content;
+  max-width: 100%;
+  background: linear-gradient(
+    121.57deg,
+    #ffffff 18.77%,
+    rgba(255, 255, 255, 0.66) 60.15%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
+  padding: 58px 0 16px;
+}
+
+.hero {
+  display: grid;
+  padding: 32px 48px 0;
+  margin: 0 auto;
+  max-width: 1100px;
+  box-sizing: content-box;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-left {
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.hero h1 {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 72px;
+  width: max-content;
+  max-width: 100%;
+  background: linear-gradient(
+    121.57deg,
+    #ffffff 18.77%,
+    rgba(255, 255, 255, 0.66) 60.15%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
+  padding: 58px 0 16px;
+}
+
+.hero p {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 300;
+  padding-bottom: 3.6rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.learn-more-btn {
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  width: 262px;
+  height: 64px;
+  margin: 0 0 80px;
+  background: linear-gradient(270deg, #13adc7 0%, #945dd6 100%);
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+}
+/* Porjects section */
+
+.divider {
+  width: 64px;
+  height: 6px;
+  border-radius: 10px;
+  background-color: #fff;
+  background: linear-gradient(270deg, #13adc7 0%, #945dd6 100%);
+}
+
+.divider-2 {
+  width: 64px;
+  height: 6px;
+  border-radius: 10px;
+  background-color: #fff;
+  background: linear-gradient(270deg, #f46737 0%, #945dd6 100%);
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1100px;
+  box-sizing: content-box;
+  position: relative;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  padding: 3rem;
+  place-items: center;
+  -webkit-column-gap: 2rem;
+  column-gap: 2rem;
+  row-gap: 3rem;
+}
+
+.project-card {
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px rgb(80 78 78 / 50%);
+  text-align: center;
+  width: 400px;
+  height: 700px;
+}
+
+.project-card-img {
+  width: 100%;
+  height: 35%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.project-card-title-content {
+  text-align: center;
+  z-index: 20;
+  width: 100%;
+}
+
+.project-card-title {
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #9cc9e3;
+  padding: 0.5rem 0;
+  font-size: 2rem;
+}
+
+.project-card hr {
+  width: 50px;
+  height: 3px;
+  margin: 20px auto;
+  border: 0;
+  background: #d0bb57;
+}
+
+.project-card-description {
+  width: 100%;
+  padding: 0 50px;
+  margin-bottom: 30px;
+  color: #e4e6e7;
+  font-style: 2rem;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.project-stack-container h6 {
+  font-size: 1rem;
+}
+
+.project-stack-list {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  padding-top: 1.5rem;
+}
+
+.project-stack-list li {
+  color: #d8bfbf;
+  font-size: 1.1rem;
+}
+
+.project-source-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  margin: 2.5rem 0;
+}
+
+.project-source-list a {
+  color: #d4c0c0;
+  font-size: 1.2rem;
+  padding: 0.8rem 1.2rem;
+  background: #6b3030;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+/* Skills section */
+.skills {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 32px 48px 0;
+  margin: 0 auto;
+  max-width: 1040px;
+  box-sizing: content-box;
+  position: relative;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+}
+
+.skills p {
+  max-width: 800px;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 300;
+  padding-bottom: 3.6rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.skills-list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin: 3rem 0;
+}
+
+.skill {
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.skill-content svg {
+  margin-left: 1rem;
+}
+
+.skill-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  display: inline-block;
+  -webkit-letter-spacing: 0.02em;
+  -moz-letter-spacing: 0.02em;
+  -ms-letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.skill-description {
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* About section */
+.about {
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 32px 48px 0;
+  margin: 0 auto;
+  max-width: 1040px;
+  box-sizing: content-box;
+  position: relative;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about-description {
+  max-width: 800px;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 300;
+  padding-bottom: 3.6rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+/* About Me */
+.timeline {
+  max-width: 1040px;
+  background: #0f1624;
+  padding: 0rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 32px;
+  margin-bottom: 80px;
+}
+
+.timeline-item {
+  background: #0f1624;
+  border-radius: 3px;
+  max-width: 196px;
+}
+
+.timeline h4 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  display: flex;
+  background: linear-gradient(
+    121.57deg,
+    #ffffff 10%,
+    rgba(255, 255, 255, 0.66) 30.15%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 8px;
+}
+
+.timeline svg {
+  margin-left: 21px;
+}
+
+.timeline-description {
+  font-size: 14px;
+  line-height: 22px;
+  -webkit-letter-spacing: 0.02em;
+  -moz-letter-spacing: 0.02em;
+  -ms-letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.75);
+  padding-right: 16px;
+}
+
+/* Contact Me */
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 48px 0;
+  margin: 0 auto;
+  max-width: 1040px;
+  box-sizing: content-box;
+  position: relative;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+}
+
+footer {
+  max-width: 1040px;
+  padding-top: 2rem;
+  padding-left: 48px;
+  padding-right: 48px;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: content-box;
+}
+
+.contact-container {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 40px 0 28px;
+}
+
+.contact-container div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-container h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 16px;
+}
+
+.contact-container a {
+  font-size: 18px;
+  line-height: 30px;
+  color: white;
+  margin-bottom: 16px;
+  position: relative;
+  left: 0;
+  cursor: pointer;
+}
