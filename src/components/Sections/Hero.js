@@ -6,9 +6,9 @@ function Hero() {
     <section className="hero">
       <div className="hero-left">
         <h1>
-          Welcome To
+          Welcome To&nbsp;
           <br />
-          My Personal Portfolio
+           My Personal Portfolio
         </h1>
         <p>
           I am a Full Stack Developer who is always learning new technologies
