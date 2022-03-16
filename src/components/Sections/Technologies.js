@@ -20,8 +20,10 @@ function Technologies() {
       <ul className="skills-list">
         <li className="skill">
           <div className="skill-content">
-            <h4 className="skill-title">React.js</h4>
-            <SiReact size="30px" />
+            <div className="skill-heading">
+              <h4 className="skill-title">React.js</h4>
+              <SiReact size="30px" />
+            </div>
             <p className="skill-description">
               Modern React with hooks and state management with Redux
             </p>
@@ -29,8 +31,10 @@ function Technologies() {
         </li>
         <li className="skill">
           <div className="skill-content">
+            <div className="skill-heading">
             <h4 className="skill-title">Node.js</h4>
             <SiNodedotjs size="30px" />
+            </div>
             <p className="skill-description">
               Taking Javascript to the backend to create REST APIs
             </p>
@@ -38,8 +42,10 @@ function Technologies() {
         </li>
         <li className="skill">
           <div className="skill-content">
-            <h4 className="skill-title">Express</h4>
-            <SiExpress size="30px" />
+            <div className="skill-heading">
+              <h4 className="skill-title">Express</h4>
+              <SiExpress size="30px" />
+            </div>
             <p className="skill-description">
               Extending Node.js to make easy fullstack applications with
               authentication
@@ -48,8 +54,10 @@ function Technologies() {
         </li>
         <li className="skill">
           <div className="skill-content">
-            <h4 className="skill-title">MongoDB</h4>
-            <SiMongodb size="30px" />
+            <div className="skill-heading">
+              <h4 className="skill-title">MongoDB</h4>
+              <SiMongodb size="30px" />
+            </div>
             <p className="skill-description">
               Used with Mongoose to store data for backends
             </p>
@@ -57,8 +65,10 @@ function Technologies() {
         </li>
         <li className="skill">
           <div className="skill-content">
-            <h4 className="skill-title">ES6+ JavaScript</h4>
-            <SiJavascript size="30px" />
+            <div className="skill-heading">
+              <h4 className="skill-title">JavaScript ES6+</h4>
+              <SiJavascript size="30px" />
+            </div>
             <p className="skill-description">
               Using all modern Javasript features such as fetch, async await,
               and classes
@@ -67,8 +77,11 @@ function Technologies() {
         </li>
         <li className="skill">
           <div className="skill-content">
-            <h4 className="skill-title">HTML5 / CSS3</h4>
-            <SiHtml5 size="30px" /> <SiCss3 size="30px" />
+          <div className="skill-heading">
+              <h4 className="skill-title">HTML/ CSS</h4>
+              <SiHtml5 size="30px" />
+              <SiCss3 size="30px" />
+            </div>
             <p className="skill-description">
               Focus on responsive layouts, accessibility, and SEO best practices
             </p>
