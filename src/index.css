@@ -8,6 +8,7 @@
 
 html {
   line-height: 1.15;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -288,7 +289,7 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
-  margin: 3rem 0;
+  margin: 2rem 0;
 }
 
 .skill {
@@ -312,9 +313,6 @@ main {
   font-size: 28px;
   line-height: 32px;
   display: inline-block;
-  -webkit-letter-spacing: 0.02em;
-  -moz-letter-spacing: 0.02em;
-  -ms-letter-spacing: 0.02em;
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 8px;
@@ -329,8 +327,6 @@ main {
 /* About section */
 .about {
   display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   flex-direction: column;
   padding: 32px 48px 0;
   margin: 0 auto;

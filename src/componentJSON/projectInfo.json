@@ -1,0 +1,34 @@
+[
+    {
+        "projectid": 1,
+        "projectname": "Final Fantasy API",
+        "projectdescription": "A completely open to use REST API for getting data back on all things pertaining to the game series Final Fantasy. Inspired by PokeAPI.",
+        "projectstack": ["MongoDB", "Mongoose", "Node", "Express"],
+        "githublink": "https://github.com/Wompato/FF-Api",
+        "livedemolink": "https://github.com/Wompato/FF-Api"
+    },
+    {
+        "projectid": 2,
+        "projectname": "Voice Powered News",
+        "projectdescription": "A Front-End news searching app which combines the news-API with AlanAI to allow users to interact with the interface with only their voice.",
+        "projectstack": ["React", "JavaScript"],
+        "githublink": "https://github.com/Wompato/AlanAi-News",
+        "livedemolink": "https://622bab387855d03a242161ee--upbeat-lamarr-9ba669.netlify.app/"
+    },
+    {
+        "projectid": 3,
+        "projectname": "Bad Checklist",
+        "projectdescription": "A desktop app I made for Lakeland Community College to automate looking through the lists of people who owed the school money.",
+        "projectstack": ["JavaScript", "Node", "Electron.js"],
+        "githublink": "https://github.com/Wompato/Bad-Checklist-Work",
+        "livedemolink": "https://github.com/Wompato/Bad-Checklist-Work"
+    },
+    {
+        "projectid": 4,
+        "projectname": "Goal Tracker",
+        "projectdescription": "A Fullstack application to keep track of my long and short term goals. Includes user authentication and redux.",
+        "projectstack": ["React", "Node", "Express", "MongoDB"],
+        "githublink": "https://github.com/Wompato/Goal-Tracker",
+        "livedemolink": "https://github.com/Wompato/Goal-Tracker"
+    }
+]
