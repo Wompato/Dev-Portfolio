@@ -40,9 +40,8 @@ function Project() {
           </div>
           <p className="project-card-description">
             A full-stack job searching application for finding jobs specific to
-            PHP/Laravel. Inspired by Indeed.com this website allows users to sign-up
-            create job listings, search and filter job queries, and even message 
-            companies they find.
+            PHP/Laravel. Laragigs allows users to sign-up create job listings, 
+            filter job searches, and message companies they find.
           </p>
           <div className="project-stack-container">
             <h6>Stack</h6>
