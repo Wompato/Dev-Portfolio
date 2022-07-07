@@ -40,8 +40,7 @@ function Project() {
           </div>
           <p className="project-card-description">
             A full-stack job searching application for finding jobs specific to
-            PHP/Laravel. Laragigs allows users to sign-up create job listings, 
-            filter job searches, and message companies they find.
+            PHP/Laravel.
           </p>
           <div className="project-stack-container">
             <h6>Stack</h6>
