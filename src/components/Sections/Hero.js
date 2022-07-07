@@ -11,8 +11,10 @@ function Hero() {
            My Personal Portfolio
         </h1>
         <p>
-          I am a Full Stack Developer who is always learning new technologies
-          with a love for explaining development to other people.
+          I am a front-end developer specalizing in building (and
+          occasionally designing) exceptionaly digital experiences.
+          Currently I am focused on creating responsive front-end
+          applications while learning backend technologies.
         </p>
         <button className="learn-more-btn">
           <a href="#projects">Learn More</a>
