@@ -7,28 +7,27 @@ function Project() {
         <article className="project-card">
           <img src="/images/FFDex.webp" className="project-card-img"></img>
           <div className="project-card-title-content">
-            <h3 className="project-card-title">Final Fantasy API</h3>
+            <h3 className="project-card-title">Delivery Website</h3>
             <hr></hr>
           </div>
           <p className="project-card-description">
-            A completely open to use REST API for getting data back on all
-            things pertaining to the game series Final Fantasy. Inspired by
-            PokeAPI.
+            A fully responsive mock delivery website landing
+            page with light and dark mode features.
           </p>
           <div className="project-stack-container">
             <h6>Stack</h6>
             <ul className="project-stack-list">
-              <li>Mongo</li>
-              <li>Mongoose</li>
-              <li>Node</li>
-              <li>Express</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SASS</li>
+              <li>JavaScript</li>
             </ul>
           </div>
           <ul className="project-source-list">
-            <a target="blank" href="https://github.com/Wompato/FF-Api">
+            <a target="blank" href="https://app.netlify.com/sites/marvelous-fairy-dd9669/overview">
               Live Demo
             </a>
-            <a target="blank" href="https://github.com/Wompato/FF-Api">
+            <a target="blank" href="https://github.com/Wompato/Delivery-Design">
               GitHub
             </a>
           </ul>
@@ -36,29 +35,31 @@ function Project() {
         <article className="project-card">
           <img src="/images/alanai.webp" className="project-card-img"></img>
           <div className="project-card-title-content">
-            <h3 className="project-card-title">Voice Powered News</h3>
+            <h3 className="project-card-title">Laragigs</h3>
             <hr></hr>
           </div>
           <p className="project-card-description">
-            A Front-End news searching app which combines the news-API with
-            AlanAI to allow users to interact with the interface with only their
-            voice.
+            A full-stack job searching application for finding jobs specific to
+            PHP/Laravel. Inspired by Indeed.com this website allows users to sign-up
+            create job listings, search and filter job queries, and even message 
+            companies they find.
           </p>
           <div className="project-stack-container">
             <h6>Stack</h6>
             <ul className="project-stack-list">
-              <li>React</li>
-              <li>JavaScript</li>
+              <li>PHP</li>
+              <li>Laravel</li>
+              <li>PostgreSQL</li>
             </ul>
           </div>
           <ul className="project-source-list">
             <a
               target="blank"
-              href="https://622bab387855d03a242161ee--upbeat-lamarr-9ba669.netlify.app/"
+              href="http://peaceful-depths-09862.herokuapp.com/"
             >
               Live Demo
             </a>
-            <a target="blank" href="https://github.com/Wompato/AlanAi-News">
+            <a target="blank" href="https://github.com/Wompato/Laragigs">
               GitHub
             </a>
           </ul>
