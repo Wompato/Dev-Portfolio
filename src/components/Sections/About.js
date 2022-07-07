@@ -6,13 +6,16 @@ function About() {
       <div className="divider-2"></div>
       <h2 className="section-heading">About Me</h2>
       <p className="about-description">
-        I am a self taught Full Stack Developer who overtime really fell in love
-        with the process of creating a full web application. I started my
-        journey late 2019 where I knew I enjoyed technology and decided to teach
-        myself at freecodecamp. in 2020 I created my first app and in 2021 I
-        went head first into Full Stack Development. It is 2022 and I am still
-        learning, improving, and more excited than ever to build more amazing
-        apps.
+        I am a self taught front-end developer who has always had a knack for
+        technology and working with computers. I started making small edits to 
+        webpages for fun in 2019 where my simple changes turned into a love for 
+        programming. 
+    
+        Fascinated by how intricate programming can be I was quickly drawn to learn
+        more. I started learning javascript to make websites more interactive. Then 
+        I started to find designs online or ideas for web apps and build them on my
+        own. I am spending most of my time now learning new techologies and sharpening 
+        my skills on the front-end.
       </p>
       <ul className="timeline">
         <li className="timeline-item">
