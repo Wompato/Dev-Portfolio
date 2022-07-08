@@ -5,7 +5,7 @@ function Project() {
       <h2 className="section-heading">Projects</h2>
       <section className="projects-container">
         <article className="project-card">
-          <img src="/images/FFDex.webp" className="project-card-img"></img>
+          <img src="/images/DeliveryDesign.png" className="project-card-img"></img>
           <div className="project-card-title-content">
             <h3 className="project-card-title">Delivery Website</h3>
             <hr></hr>
@@ -33,7 +33,7 @@ function Project() {
           </ul>
         </article>
         <article className="project-card">
-          <img src="/images/alanai.webp" className="project-card-img"></img>
+          <img src="/images/Laragigs.png" className="project-card-img"></img>
           <div className="project-card-title-content">
             <h3 className="project-card-title">Laragigs</h3>
             <hr></hr>
