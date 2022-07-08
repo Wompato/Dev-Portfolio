@@ -24,7 +24,7 @@ function Project() {
             </ul>
           </div>
           <ul className="project-source-list">
-            <a target="blank" href="https://app.netlify.com/sites/marvelous-fairy-dd9669/overview">
+            <a target="blank" href="https://marvelous-fairy-dd9669.netlify.app/">
               Live Demo
             </a>
             <a target="blank" href="https://github.com/Wompato/Delivery-Design">
