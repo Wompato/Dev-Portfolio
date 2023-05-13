@@ -44,7 +44,7 @@ function Technologies() {
         <li className="skill">
           <div className="skill-content">
             <div className="skill-heading">
-              <h4 className="skill-title">Express</h4>
+              <h4 className="skill-title">WordPress</h4>
               <SiWordpress size="30px" />
             </div>
             <p className="skill-description">
@@ -56,7 +56,7 @@ function Technologies() {
         <li className="skill">
           <div className="skill-content">
             <div className="skill-heading">
-              <h4 className="skill-title">MongoDB</h4>
+              <h4 className="skill-title">PHP</h4>
               <SiPhp size="30px" />
             </div>
             <p className="skill-description">

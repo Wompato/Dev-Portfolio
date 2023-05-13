@@ -110,12 +110,6 @@ function Project() {
               target="blank"
               href="https://github.com/Wompato/Bad-Checklist-Work"
             >
-              Live Demo
-            </a>
-            <a
-              target="blank"
-              href="https://github.com/Wompato/Bad-Checklist-Work"
-            >
               GitHub
             </a>
           </ul>
