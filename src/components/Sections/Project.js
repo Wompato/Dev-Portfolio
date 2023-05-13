@@ -51,14 +51,36 @@ function Project() {
             </ul>
           </div>
           <ul className="project-source-list">
-            <a
-              target="blank"
-              href="http://peaceful-depths-09862.herokuapp.com/"
-            >
-              Live Demo
-            </a>
             <a target="blank" href="https://github.com/Wompato/Laragigs">
               GitHub
+            </a>
+          </ul>
+        </article>
+        <article className="project-card">
+          <img
+            src="/images/Petitti.png"
+            className="project-card-img"
+          ></img>
+          <div className="project-card-title-content">
+            <h3 className="project-card-title">Petitti Family Farms</h3>
+            <hr></hr>
+          </div>
+          <p className="project-card-description">
+            A website redesign of Petitti Garden Center's three nursery websites
+            with a blog, custom animated icons, and a password protected downloadable
+            inventory spreadsheet.
+          </p>
+          <div className="project-stack-container">
+            <h6>Stack</h6>
+            <ul className="project-stack-list">
+              <li>PHP</li>
+              <li>SASS</li>
+              <li>WordPress</li>
+            </ul>
+          </div>
+          <ul className="project-source-list">
+            <a target="_blank" href="https://petittifamilyfarms.com">
+              Live Demo
             </a>
           </ul>
         </article>
@@ -94,37 +116,6 @@ function Project() {
               target="blank"
               href="https://github.com/Wompato/Bad-Checklist-Work"
             >
-              GitHub
-            </a>
-          </ul>
-        </article>
-        <article className="project-card">
-          <img
-            src="/images/goaltracker.webp"
-            className="project-card-img"
-          ></img>
-          <div className="project-card-title-content">
-            <h3 className="project-card-title">Goal Tracker</h3>
-            <hr></hr>
-          </div>
-          <p className="project-card-description">
-            A Fullstack application to keep track of my long and short term
-            goals. Includes user authentication and redux
-          </p>
-          <div className="project-stack-container">
-            <h6>Stack</h6>
-            <ul className="project-stack-list">
-              <li>React</li>
-              <li>Node</li>
-              <li>Express</li>
-              <li>MongoDB</li>
-            </ul>
-          </div>
-          <ul className="project-source-list">
-            <a target="_blank" href="https://github.com/Wompato/Goal-Tracker">
-              Live Demo
-            </a>
-            <a target="_blank" href="https://github.com/Wompato/Goal-Tracker">
               GitHub
             </a>
           </ul>

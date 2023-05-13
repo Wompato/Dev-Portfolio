@@ -11,10 +11,9 @@ function Hero() {
            My Personal Portfolio
         </h1>
         <p>
-          I am a front-end developer specalizing in building (and
-          occasionally designing) exceptionaly digital experiences.
-          Currently I am focused on creating responsive front-end
-          applications while learning backend technologies.
+          I am a web developer specalizing in building exceptionaly
+          digital experiences. I am focused on creating websites and 
+          web apps which are easy for clients to use.
         </p>
         <button className="learn-more-btn">
           <a href="#projects">Learn More</a>

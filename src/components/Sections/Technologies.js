@@ -2,10 +2,10 @@ import {
   SiJavascript,
   SiReact,
   SiNodedotjs,
-  SiExpress,
-  SiMongodb,
   SiHtml5,
   SiCss3,
+  SiPhp,
+  SiWordpress
 } from "react-icons/si";
 
 function Technologies() {
@@ -37,6 +37,7 @@ function Technologies() {
             </div>
             <p className="skill-description">
               Taking Javascript to the backend to create REST APIs
+              with Express
             </p>
           </div>
         </li>
@@ -44,11 +45,11 @@ function Technologies() {
           <div className="skill-content">
             <div className="skill-heading">
               <h4 className="skill-title">Express</h4>
-              <SiExpress size="30px" />
+              <SiWordpress size="30px" />
             </div>
             <p className="skill-description">
-              Extending Node.js to make easy fullstack applications with
-              authentication
+              Building custom themes, plugins, and working with popular 
+              plugins like ACF and YoastSEO
             </p>
           </div>
         </li>
@@ -56,10 +57,11 @@ function Technologies() {
           <div className="skill-content">
             <div className="skill-heading">
               <h4 className="skill-title">MongoDB</h4>
-              <SiMongodb size="30px" />
+              <SiPhp size="30px" />
             </div>
             <p className="skill-description">
-              Used with Mongoose to store data for backends
+              Creating backend services, working with different CMS, and 
+              integrating 3rd party APIs
             </p>
           </div>
         </li>
